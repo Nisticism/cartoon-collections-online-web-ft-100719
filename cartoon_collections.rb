@@ -1,8 +1,5 @@
 def roll_call_dwarves(dwarves)
-  counter = 0
-  while counter < dwarves.size
-    puts "#{dwarves[counter]}"
-    counter += 1
+  dwarves.each_with_index 
   end
 end
 
